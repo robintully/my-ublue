@@ -80,3 +80,7 @@ flatpaks:
   - org.gustavoperedo.FontDownloader
   - com.github.tchx84.Flatseal
   - io.github.celluloid_player.Celluloid
+  # My Preferred Flatpaks
+  - md.obsidian.Obsidian
+  - io.beekeeperstudio.Studio
+  - com.borgbase.Vorta

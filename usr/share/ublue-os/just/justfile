@@ -71,3 +71,8 @@ update:
 
   echo "Updating Distroboxes..."
   distrobox upgrade -a
+
+fish:
+  curl -sS https://starship.rs/install.sh | sh
+  echo 'starship init fish | source' >> ~/.config/fish/config.fish
+  sudo lchsh -i

@@ -9,7 +9,7 @@ changelogs:
 
 distrobox-boxkit:
   echo 'Creating Boxkit distrobox ...'
-  distrobox create --image ghcr.io/ublue-os/boxkit -n boxkit -Y
+  distrobox create --image ghcr.io/robintully/boxkit -n boxkit -Y
 
 distrobox-debian:
   echo 'Creating Debian distrobox ...'

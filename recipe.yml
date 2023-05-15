@@ -72,7 +72,7 @@ rpm:
 # everything below and directly edit "yafti.yml" to have more control.
 # This is just an example selection.
 flatpaks:
-  # - org.mozilla.firefox
+  - org.mozilla.firefox
   - org.mozilla.Thunderbird
   - com.mattjakeman.ExtensionManager
   - org.libreoffice.LibreOffice

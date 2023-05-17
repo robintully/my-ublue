@@ -74,14 +74,8 @@ update:
 
 fish:
   curl -sS https://starship.rs/install.sh | sh
-  echo 'starship init fish | source' >> ~/.config/fish/config.fish
   sudo lchsh -i
 
-catpuccin:
-  mkdir ~/catpuccin
-  cd ~/catpuccin
-  git clone --recurse-submodules git@github.com:catppuccin/gtk.git
-  python -m venv  venv  # to be created only once and only if you need a virtual env
-  source venv/bin/activate  
-  pip install -r requirements.txt
-  python install.py all -a all
+install-nvm:
+  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+  nvm install 16.17.1
